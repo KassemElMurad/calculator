@@ -45,3 +45,9 @@ btn0 = Button(cal,padx=16, bd=8,fg="black",font=('arial',20,'bold'),text="0",com
 deli = Button(cal,padx=16, bd=8,fg="black",font=('arial',20,'bold'),text="c",command=clear).grid(row=4,column=1)
 eq = Button(cal,padx=16, bd=8,fg="black",font=('arial',20,'bold'),text="=",command=equ).grid(row=4,column=2)
 ov = Button(cal,padx=16, bd=8,fg="black",font=('arial',20,'bold'),text="/",command=lambda:onclk("/")).grid(row=4,column=3)
+
+
+cal.mainloop()
+
+
+
